@@ -1,0 +1,15 @@
+{
+  "parameters": [
+    {
+      "id": 1,
+      "repository_id": 99,
+      "section_name": "ApplicationName1",
+      "parameter_name": "ParameterName1",
+      "parameter_value": "ParameterValue1",
+      "encrypted": 0,
+      "comment": "Comment",
+      "subsection_name": "SubSectionName1",
+      "environment": "DEVELOPMENT"
+    }
+  ]
+}
