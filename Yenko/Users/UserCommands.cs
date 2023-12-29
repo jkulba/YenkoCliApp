@@ -14,7 +14,7 @@ public class UserCommands
         _logger = logger;
     }
 
-    [Command("list")]
+    [Command("list", Description = "List all users")]
     public async Task<int> GetAllUsers()
     {
         _logger.LogInformation("GetAllUsers Command START");
@@ -33,7 +33,7 @@ public class UserCommands
         return 0;
     }
 
-    [Command("get")]
+    [Command("get", Description = "Get user by id")]
     public async Task<int> GetUser([Option()] string id)
     {
         _logger.LogInformation("GetUser Command START");
@@ -49,7 +49,7 @@ public class UserCommands
         return 0;
     }
 
-    [Command("create")]
+    [Command("create", Description = "Create new user")]
     public async Task<int> CreateUser([Argument] UserCommands.UserRequest userRequest)
     {
         _logger.LogInformation("CreateUser Command START");
