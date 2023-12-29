@@ -23,6 +23,12 @@ builder.Host.UseSerilog((hostContext, loggerConfiguration) => loggerConfiguratio
 
 var app = builder.Build();
 
+// app.AddCommand("weather", async (string city, IWeatherService weatherService) =>
+// {
+//     var weather = await weatherService.GetWeatherForCityAsync(city);
+//     Console.WriteLine(JsonSerializer.Serialize(weather, new JsonSerializerOptions{WriteIndented = true}));
+// });
+
 app.AddCommands<UserCommands>();
 
 app.Run();

@@ -1,4 +1,4 @@
-"{`"address`":{`"geolocation`":{`"lat`":`"42.9142155`",`"lng`":`"-87.8692803`"},`"city`":`"South Milwaukee`",`"street`":`"Missouri Ave`",`"number`":1401,`"zipcode`":`"53172`"},`"email`":`"tommie28@blick.com`",`"username`":`"catalins`",`"password`":null,`"name`":`"Catalina Watkins`"}"
+"{`"address`":{`"geolocation`":{`"latitude`":`"42.9142155`",`"longitude`":`"-87.8692803`"},`"city`":`"South Milwaukee`",`"street`":`"Missouri Ave`",`"number`":1401,`"zipcode`":`"53172`",`"state`":`"WI`"},`"email`":`"tommie28@blick.com`",`"username`":`"catalins`",`"password`":null,`"name`":`"Catalina Watkins`"}"
 
 
 "{`"address`":{`"city`":`"South Milwaukee`",`"street`":`"Missouri Ave`",`"number`":1401,`"zipcode`":`"53172`"},`"email`":`"tommie28@blick.com`",`"username`":`"catalins`",`"password`":null,`"name`":`"Catalina Watkins`"}"
