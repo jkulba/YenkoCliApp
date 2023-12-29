@@ -1,0 +1,23 @@
+{
+    "id": 0,
+    "name": "Zoey Miller",
+    "username": "zoey",
+    "email": "zoey@mail.com",
+    "address": {
+        "street": "932 Johnson",
+        "suite": "APT 100",
+        "city": "Madison",
+        "zipcode": "50123",
+        "geo": {
+            "lat": "43.0793",
+            "lng": "-89.3778"
+        }
+    },
+    "phone": "1-608-555-1212",
+    "website": "statefarm.org",
+    "company": {
+        "name": "Z Insurance",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+    }
+}

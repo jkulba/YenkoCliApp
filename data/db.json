@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Catalina Watkins",
+      "username": "catalins",
+      "email": "tommie28@blick.com",
+      "address": {
+        "number": "1401",
+        "street": "Missouri Ave",
+        "city": "South Milwaukee",
+        "zipcode": "53172",
+        "geolocation": {
+          "lat": "42.9142155",
+          "lng": "-87.8692803"
+        }
+      },
+      "phone": "1-479-342-0595",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Dumont EBVBA",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Amelia Ryan",
+      "username": "amelyan",
+      "email": "hand.katelyn@kuhlman.edu.au",
+      "address": {
+        "number": "12",
+        "street": "Cleome St",
+        "city": "Ladera Ranch",
+        "zipcode": "92694",
+        "geolocation": {
+          "lat": "33.544801",
+          "lng": "-117.635861"
+        }
+      },
+      "phone": "61-2-1352-7135",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Luyten CVBA",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Oscar Hendrickx",
+      "username": "oscarhkx",
+      "email": "janssens.noemie@advalvas.be",
+      "address": {
+        "number": "1401",
+        "street": "S Eldridge St",
+        "suite": "APT 203",
+        "city": "Morrison",
+        "zipcode": "80465",
+        "geolocation": {
+          "lat": "39.6364272",
+          "lng": "-105.155812"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Lacroix EBVBA",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "name": "Alice Jones",
+      "userName": "Alice",
+      "email": "Alice@mail.com",
+      "id": 4
+    },
+    {
+      "address": null,
+      "id": 5,
+      "email": null,
+      "username": null,
+      "password": null,
+      "name": null
+    },
+    {
+      "address": null,
+      "id": 6,
+      "email": null,
+      "username": null,
+      "password": null,
+      "name": null
+    },
+    {
+      "id": 7,
+      "email": "Jenny@mail.com",
+      "username": "Jenny",
+      "password": null,
+      "name": "Jenny Jones"
+    },
+    {
+      "id": 8,
+      "email": "Jenny@mail.com",
+      "username": "Jenny",
+      "password": null,
+      "name": "Jenny Jones",
+      "address": null
+    },
+    {
+      "id": 9,
+      "email": "tommie28@blick.com",
+      "username": "catalins",
+      "password": null,
+      "name": "Catalina Watkins",
+      "address": {
+        "geolocation": {
+          "lat": "42.9142155",
+          "lng": "-87.8692803"
+        },
+        "city": "South Milwaukee",
+        "street": "Missouri Ave",
+        "number": 1401,
+        "zipcode": "53172"
+      }
+    }
+  ]
+}
