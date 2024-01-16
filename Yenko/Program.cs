@@ -10,7 +10,7 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: true, reloadOnCh
 
 builder.Logging.AddFilter("System.Net.Http", LogLevel.Warning);
 
-builder.Services.AddSingleton<ICoconaValueConverter, JsonValueConverter>();
+// builder.Services.AddSingleton<ICoconaValueConverter, JsonValueConverter>();
 
 builder.Services.AddHttpClient("usersapi", c =>
 {

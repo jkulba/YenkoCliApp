@@ -41,15 +41,18 @@ public class UserCommands
     [Command("get", Description = "Get a user by id")]
     public async Task<int> GetUser([Option()] string id)
     {
-        _logger.LogInformation("GetUser Command START");
-
         var client = _httpClientFactory.CreateClient("usersapi");
 
-        var user = await client.GetFromJsonAsync<User>($"users/{id}");
-
-        Console.WriteLine(JsonSerializer.Serialize(user, s_writeOptions) ?? string.Empty);
-
-        _logger.LogInformation("GetUser Command END");
+        try {
+            var user = await client.GetFromJsonAsync<User>($"users/{id}");
+            Console.WriteLine(JsonSerializer.Serialize(user, s_writeOptions) ?? string.Empty);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            _logger.LogError("User with id: {id} Not Found", id);
+            return 1;
+        }
 
         return 0;
     }
